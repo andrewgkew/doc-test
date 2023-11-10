@@ -1,0 +1,11 @@
+site_name: "doc-test"
+site_description: "Test"
+
+nav:
+  - Introduction: index.md
+  - Command reference example: command-reference-template.md
+  - Runbook example: runbook-template.md
+  - System architecture example: system-architecture-template.md
+
+plugins:
+  - techdocs-core

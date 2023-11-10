@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "doc-test"
+  description: "Test"
+  links:
+    - title: Repository
+      url: https://github.com/undefined/undefined/_git/doc-test
+  annotations:
+    github.com/project-slug: andrewgkew/doc-test
+    backstage.io/techdocs-ref: dir:.
+    jira/project-key: ""
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "group:default/allcompany"
